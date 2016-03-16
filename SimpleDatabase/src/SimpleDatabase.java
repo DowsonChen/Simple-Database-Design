@@ -84,8 +84,7 @@ public class SimpleDatabase {
 	}
 	
 	// Update valueNumber hashmap, int add means the manipulation on value
-	private static void updateValueNum(HashMap<String, Integer> valueNumber, 
-									String value, int add) {
+	private static void updateValueNum(HashMap<String, Integer> valueNumber, String value, int add) {
 		if (valueNumber.get(value) == null) {
 			valueNumber.put(value, 1);
 		} else {
